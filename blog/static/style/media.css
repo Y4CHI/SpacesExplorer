@@ -1,0 +1,137 @@
+
+/* CARD ASTRO */
+@media only screen and (min-width: 951px) and (max-width: 1130px) {
+    .Card-two{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+/* HEADER NAVIGATION */
+@media(max-width: 950px){
+    .img2{
+        height: 5vh;
+        padding: 10px;
+    }
+    
+    .header label{
+        display: initial;
+    }
+    
+    .header{
+        position: relative;
+        padding: 20px 10px;
+    }
+    
+    .header .navigation{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background:rgb(10, 10, 10);
+        display: none;
+    }
+    
+    
+    .header .navigation ul li {
+        width: 100%;
+    }
+    
+    .header .navigation ul li a {
+        padding: 8px 30px 8px 10%;
+        gap: 10px;
+        display: flex;
+    }
+    
+    .header .navigation ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    
+    }
+    .header .navigation ul li ul li {
+        background-color: transparent;
+    }
+/*     
+    .header .navigation ul li ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0;
+    } */
+    
+    #toggle:checked ~ .navigation {
+        display: block;
+    }
+    
+    .parrafos{
+        font-size: 22px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .div-2{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 948px) {
+
+    body{
+    width: 100%;
+    display:grid;
+}
+.cards{
+    display: grid;
+}
+.Card-two{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cajaone{
+    margin: 0 auto;
+}
+
+.img-astro{
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.title,.titletwo{
+    display: grid;
+    font-size: 5vh;
+    padding: 0px;
+}
+.section-one{
+    display: contents;
+    max-width: 0em;
+    justify-content: center;
+    padding: 2em 0px 4em 12em;
+}
+}
+

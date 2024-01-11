@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceExplorer</title>
+    <link rel="stylesheet" href="{% static 'style/header.css' %}">
+    <link rel="stylesheet" href="{% static 'style/media.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700&display=swap" rel="stylesheet">
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <header class="header">
+		<div class="logo">
+		<img class="logo1" src="{% static '/img/astro.png'%}" alt="" width="85">
+		</div>
+	
+		<input type="checkbox" id="toggle">
+		<label for="toggle"><img class="img2"  src="{% static '/img/menu.svg'%}" alt="menu"></label>
+	
+	
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">  About us  </a></li>
+				<li><a href="#"> Solutions & Services </a></li>
+				<li><a href="#">  Compilance </a></li>
+				<li><a href=""> Sectors  </a></li>
+				<li><a href="#"> Blog </a></li>	
+				<li><a href="#"> Contact </a></li>	
+            </ul>
+		</nav>
+	</header>
+    <br>
+    <br>
+    <main>
+    <section class="section-all">
+        <section class="section-one">
+            <h1 class="title">Comply with Information <br> Security Mandates</h1>
+            <p class="parrafo">In CiberConnects on Chain World, friendship endure eternally<br>
+            trascending the digital realm.</p>
+            <div class="buttons">
+            <a href=""><button class="get">Get Started</button></a>
+            <a href=""><button class="join">Join Cyber Trek</button></a>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="section-two">
+            <h1 class="titletwo">What we do?</h1>
+            <p class="parrafo">Our Services are both  effective  and budget-friendly, ensuring<br>
+            you get the best value for your investment.</p>
+            <div class="cards">
+            <div class="card">
+                <h2>Spaceman</h2>
+                <p>Descripción de la Card. Esta es una descripción simple para ilustrar el contenido de la card.</p>
+              </div>
+
+              <div class="card">
+                <h2>SpaceX</h2>
+                <p>Descripción de la Card. Esta es una descripción simple para ilustrar el contenido de la card.</p>
+              </div>
+
+              <div class="card">
+                <h2>ProjectsX</h2>
+                <p>Descripción de la Card. Esta es una descripción simple para ilustrar el contenido de la card.</p>
+              </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="Card-two">
+            <div class="card2">
+                <img class="img-astro" src="{% static 'img/nauta.jpg' %}">
+            </div>
+            <div class="cajaone">
+            <h1 class="astro-h1">How we do it?</h1>
+            <p class="parrafo-astro">We analize your  organization's  needs and implement tailored Solutions for regulatory success.</p>
+            <div class="card3">
+                <h3 class="h3-astro">We function as a virtual and seamies extension of your Security organization.</h3>
+                <h3 class="h3-astro">We understand the complexities of your bussines model.</h3>
+                <h3 class="h3-astro">And , we provide solutions custom-tailored to your bussines needs.</h3>
+            </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="Card-three">
+            <h1 class="titletwo">Who we serve.</h1>
+            <div class="div-2">
+            <img class="img-ast" src="{% static 'img/ast.png' %}">
+            <p class="parrafos"> Our services are both effective and  budget-friendly, ensuring
+                you get the best value for your investment.
+            </p> 
+            </div>
+        </section>
+        <br>
+        <br>
+        <footer class="footer"> 
+            <p class="footer-p">© 2024 Yachi.Dev, Inc</p>
+            <p class="footer-p">Privacy Policy</p>
+            <p class="footer-p">Politcs</p>
+        </footer>
+    </section>
+        
+    </main>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
