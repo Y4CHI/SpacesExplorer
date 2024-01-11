@@ -1,4 +1,4 @@
-#!/home/y4chi/Class-Python/Django/.venv/bin/python3
+#!/home/y4chi/Class-Python/SpaceSearch/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

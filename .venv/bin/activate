@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/y4chi/Class-Python/Django/.venv"
+VIRTUAL_ENV="/home/y4chi/Class-Python/SpaceSearch/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
